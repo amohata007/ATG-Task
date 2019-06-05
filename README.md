@@ -1,4 +1,4 @@
 # ATG-Task
 
 ##Front View
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/amohata007/ATG-Task/blob/master/Screenshot%20(49).png)
