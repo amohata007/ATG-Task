@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TASK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="task.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/ad1cc83f85.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+  <div class="box">
+    <a class="button" href="#popup1" data-toggle="modal" data-target="#myModal">Let me Pop up</a>
+  </div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+              <i data-dismiss="modal" class="fa fa-arrow-left" aria-hidden="true"></i>
+              <span class="modal-title" style="margin-left: 30px">Multiple Tickets</span>
+        </div>
+        <br>
+        <div class="modal-body">
+          <p style="font-weight: bold">1.</p>
+          <div id="main-container">
+                <div class="form-group">
+                        <label for="category">Category?</label>
+                        <input type="text" class="form-control" id="category" placeholder="Example: Entry, food or parking etc.">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <input type="text" class="form-control" id="description" placeholder="Description">
+                </div>
+                <div class="form-group">
+                        <label for="description">Ticket price for this category?</label><br/>
+                        <button id="ticket-btn">&#x20b9; <i class="fa fa-caret-down"></i></button><input id="ticket-text" placeholder="  Price per ticket">
+                </div>
+                <div id="bottom-container">
+                        <p class="cost" style="float: left;font-weight: bold;">Total Cost : &#x20b9;0</p>
+                      <button id="done" type="button" class="btn btn-default" data-dismiss="modal">Done<i class="em em-ok_hand"></i></button>
+                </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+</body>
+</html>

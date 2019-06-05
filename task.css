@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+    margin-top: 350px;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #06D85F;
+  }
+
+.modal-header{
+    margin-left: 15px;
+}
+.modal-title {
+    font-weight: bold;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 20px;
+}
+.fa-arrow-left{
+    font-size: 15px;
+}
+
+#main-container{
+    margin: 30px;
+    width:500px;
+    height: 400px;
+}
+#category{
+    border: 0;
+    width:300px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+#description{
+    border: 0;
+    width:450px;
+    height: 65px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+#ticket-btn{
+    border: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #ebe9e9;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#ticket-text{
+    border: 0;
+    height: 50px;
+    width: 150px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#bottom-container{
+    margin-top: 110px;
+}
+.cost{
+    margin-top: 25px;
+    margin-left: -20px;
+}
+
+
+#done {
+    width: 100px;
+    background-color:#0fbb67;
+    color:white;
+    float: right;
+    margin-right: -30px;
+}
+
+
+
+
+
+
+
+
